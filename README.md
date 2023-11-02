@@ -74,6 +74,7 @@ Problem Solvinng Using C ( Module-1 )
 
 6. C program to find the determinant value of the quadratic equation 
 from the given input a, b, c
+<br>
 
       #include<stdio.h>
       #include<math.h>
