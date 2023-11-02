@@ -118,3 +118,18 @@ from the given input a, b, c
         printf("The sum of entered numbers is: %d", add);
         return 0;
       }
+
+8. C Program to Multiply Two Floating-Point Numbers
+<br>
+
+       #include<stdio.h>
+       #include<math.h>
+       int main ()
+       {
+        int num1, num2, mul;
+        printf("Enter the numbers:");
+        scanf("%d %d", &num1, &num2);
+        mul=num1*num2;
+        printf("The multiple entered numbers is: %d", mul);
+        return 0;
+       }
