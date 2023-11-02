@@ -1,7 +1,7 @@
 # ProblemSolving-C
 Problem Solvinng Using C ( Module-1 )
 
-1. C Program Basics to print "Welcome to Alliance University!"
+1. C Program Basics to print "Welcoming Message"
 
        #include<stdio.h>
        int main ()
@@ -21,3 +21,28 @@ Problem Solvinng Using C ( Module-1 )
         printf("You entered Integer is:");
         return 0;
        }
+3. C Program to Print a String (Entered by the User)
+
+      #include<stdio.h>
+      #include<string.h>
+      int main ()
+      {
+       char str[100];
+       printf("Enter a String:");
+       scanf("%s", &str);
+       printf("Your entered String is:");
+       return 0;
+      }
+
+Or/ (Using fgets allows us to read a line of text, including spaces, from the standard input)
+
+      #include<stdio.h>
+      #include<string.h>
+      int main ()
+      {
+        char str[100];
+        printf("Enter a string:");
+        fgets(str, sizeof(str), stdin);
+        printf("Your entered String is: %s", str);
+        return 0;
+      }
