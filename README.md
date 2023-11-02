@@ -146,3 +146,18 @@ from the given input a, b, c
         printf("The ASCII value of entered %c is %d", a, a);
         return 0;
        }
+
+10.  C Program to display the find the volume of a cube
+<br>
+
+       #include<stdio.h>
+       #include<math.h>
+       int main ()
+       {
+        float side, volume;
+        printf("Enter the lenght of the side of the cube:");
+        scanf("%f", &side);
+        volume=side*side*side;
+        printf("The volume of the cude is: %f", volume);
+        return 0;
+       }
