@@ -133,3 +133,16 @@ from the given input a, b, c
         printf("The multiple entered numbers is: %d", mul);
         return 0;
        }
+
+9. C Program to Find ASCII Value of a Character
+<br>
+
+       #include<stdio.h>
+       int main ()
+       {
+        char a;
+        printf("Enter the character:");
+        scanf("%c", &a);
+        printf("The ASCII value of entered %c is %d", a, a);
+        return 0;
+       }
