@@ -104,7 +104,8 @@ from the given input a, b, c
         return 0;
       }
 
-7. C Program to Add Two Integers    
+7. C Program to Add Two Integers 
+<br>   
 
       #include<stdio.h>
       #include<math.h>
