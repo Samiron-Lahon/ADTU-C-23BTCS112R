@@ -23,6 +23,7 @@ Problem Solvinng Using C ( Module-1 )
        }
 3. C Program to Print a String (Entered by the User)
 
+
       #include<stdio.h>
       #include<string.h>
       int main ()
@@ -33,6 +34,7 @@ Problem Solvinng Using C ( Module-1 )
        printf("Your entered String is:");
        return 0;
       }
+
 
 Or/ (Using fgets allows us to read a line of text, including spaces, from the standard input)
 
