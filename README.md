@@ -22,21 +22,7 @@ Problem Solvinng Using C ( Module-1 )
         return 0;
        }
 3. C Program to Print a String (Entered by the User)
-
-
-      #include<stdio.h>
-      #include<string.h>
-      int main ()
-      {
-       char str[100];
-       printf("Enter a String:");
-       scanf("%s", &str);
-       printf("Your entered String is:");
-       return 0;
-      }
-
-
-Or/ (Using fgets allows us to read a line of text, including spaces, from the standard input)
+(Using fgets allows us to read a line of text, including spaces, from the standard input)
 
       #include<stdio.h>
       #include<string.h>
