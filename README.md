@@ -38,10 +38,9 @@ Problem Solvinng Using C ( Module-1 )
       }
 
 4.  C Program to Print a Float (Entered by the User)
-<br>
 
       #include<stdio.h>
-      int main ()
+       int main ()
       {
         float PointNum;
         printf("Enter a point number:");
