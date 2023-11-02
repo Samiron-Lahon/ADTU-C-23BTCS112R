@@ -22,7 +22,9 @@ Problem Solvinng Using C ( Module-1 )
         return 0;
        }
 3. C Program to Print a String (Entered by the User)
+<br>
 (Using fgets allows us to read a line of text, including spaces, from the standard input)
+<br>
 
       #include<stdio.h>
       #include<string.h>
