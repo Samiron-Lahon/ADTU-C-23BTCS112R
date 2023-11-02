@@ -36,3 +36,15 @@ Problem Solvinng Using C ( Module-1 )
         printf("Your entered String is: %s", str);
         return 0;
       }
+
+4.  C Program to Print a Float (Entered by the User)
+ 
+      #include<stdio.h>
+      int main ()
+      {
+        float PointNum;
+        printf("Enter a point number:");
+        scanf("%f", &PointNum);
+        Printf("Your entered point number is:");
+        return 0;
+      }
