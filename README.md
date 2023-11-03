@@ -235,7 +235,7 @@ from the given input a, b, c
         return 0;
       }
 
-16.C Program to Demonstrate the Working of Keyword long
+16. C Program to Demonstrate the Working of Keyword long
 <br>
 
       #include<stdio.h>
@@ -249,5 +249,41 @@ from the given input a, b, c
         longInteger=99999999999;
         printf("Updated regularInteger: d%\n", regularInteger);
         printf("Updated longInteger: %ld\n", longInteger);
+        return 0;
+      }
+
+17. C Program to Swap Two Numbers – with and without temporary 
+variables
+<br>
+
+With a temporary variables:
+<br>
+
+      #include<stdio.h>
+      int main ()
+      {
+        int num1, num2, tem;
+        printf("Enter two numbers:");
+        scanf("%d %d", &num1, &num2);
+        tem=num1
+        num1=num2
+        num2=tem
+        printf("Value after swapping: num1= %d and num2= %d\n", num1, num2);
+      return 0;
+      }
+
+Without temporary variables:
+<br>
+ 
+      #include<stdio.h>
+      int main ()
+      {
+        int num1, num2;
+        printf("Enter two numbers:");
+        scanf("%d %d", &num1, &num2);
+        num1=num1+num2;
+        num2=num1-num2;
+        num1=num1-num2;
+        printf("After swapping: num1= %d and num2=%d\n", num1, num2);
         return 0;
       }
