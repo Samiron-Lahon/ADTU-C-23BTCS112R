@@ -191,3 +191,18 @@ from the given input a, b, c
         printf("Volume of the sphere is: %f", volume);
         return 0;
        }
+
+13. C program to find the total marks of 5 subjects and its average
+<br>
+
+       #include<stdio.h>
+       #include<math.h>
+       int main ()
+       {
+        float sub1, sub2, sub3, sub4, sub5, avg;
+        printf("Enter the numbers of the subjects:");
+        scanf("%f %f %f %f %f", &sub1, &sub2, &sub3, &sub4, &sub5);
+        avg=(sub1+sub2+sub3+sub4+sub5)/5:
+        printf("The avg of the subjects is: %f", avg);
+        return 0;
+       }
