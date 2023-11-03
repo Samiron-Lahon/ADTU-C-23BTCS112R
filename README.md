@@ -221,3 +221,16 @@ from the given input a, b, c
         printf("%d %d", quotient, remainder); 
         return 0;
       }
+
+15.C Program to Find the Size of int, float, double, and char
+<br>
+
+      #include<stdio.h>
+      int main ()
+      {
+        printf("Size of int: %d\n bytes", sizeof(int));
+        printf("Size of float: %d\n  bytes", sizeof(float));
+        printf("Size of double: %d\n bytes", sizeof(double));
+        prinntf("Size of char: %d\n bytes", sizeof(char));
+        return 0;
+      }
