@@ -287,3 +287,82 @@ Without temporary variables:
         printf("After swapping: num1= %d and num2=%d\n", num1, num2);
         return 0;
       }
+
+18. C program to find the square of the numbers
+<br>
+ 
+       #include<stdio.h>
+       #include<math.h>
+       int main ()
+       {
+        double num, sq;
+        printf("Enter a number:");
+        scanf("%lf", &num);
+        sq=num*num;
+        printf("Square of the number is: %f", sq);
+        return 0;
+       }
+
+19. C program to find the multiplication of two numbers in table 
+format
+<br>
+
+      #include<stdio.h>
+      int main()
+      {
+        int rows, columns;
+        printf("Enter the numbers of rows and columns: %d", rows, columns);
+        scanf("%d %d", &rows, &columns);
+        printf("Multiplication table:\n");
+
+        for(int i=1; i<=rows; i++)
+        {
+          for(int j=1; j<=columns; j++)
+          {
+            int product=i*j;
+            printf("%d", product);
+          }
+          printf("\n");
+        }
+        return 0;
+      }
+
+20. C program to calculate salary by getting input as Basic, DA, HRA, 
+CCA, and deduction such as IT, PT, PF
+<br>      
+
+       #include<stdio.h>
+       #include<math.h>
+       int main ()
+       {
+        float basic, DA, HRA, CCA, IT, PT, PF, GS, NS;
+
+        printf("Enter Basic salary:");
+        scanf("%f", &basic);
+
+        printf("Enter DA:\n");
+        scanf("%f", &DA);
+
+        printf("Enter HRA:\n");
+        scanf("%f", &HRA);
+
+        printf("Enter CCA:\n");
+        scanf("%f", &CCA);
+
+        printf("Enter IT:\n");
+        scanf("%f", &IT);
+
+        printf("Enter PT:\n");
+        scanf("%f", &PT);
+
+        printf("Enter PF:\n");
+        scanf("%f", &PF);
+
+        GS= basic + DA + HRA + CCA;
+        NS= GS - (IT + PT + PF);
+
+        printf("Gross Salary is: %f\n", GS);
+        printf("Net Salary is: %f\n", NS);
+             
+        return 0;
+       }
