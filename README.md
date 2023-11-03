@@ -234,3 +234,20 @@ from the given input a, b, c
         prinntf("Size of char: %d\n bytes", sizeof(char));
         return 0;
       }
+
+16.C Program to Demonstrate the Working of Keyword long
+<br>
+
+      #include<stdio.h>
+      int main()
+      {
+        int regularInteger=10000000000;
+        long longInteger=10000000000;
+        printf("Regularinteger: %d\n", regularInteger);
+        printf("Longinteger: %ld\n", longInteger);
+        regularInteger=999999999;
+        longInteger=99999999999;
+        printf("Updated regularInteger: d%\n", regularInteger);
+        printf("Updated longInteger: %ld\n", longInteger);
+        return 0;
+      }
