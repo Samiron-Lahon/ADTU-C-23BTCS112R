@@ -206,3 +206,18 @@ from the given input a, b, c
         printf("The avg of the subjects is: %f", avg);
         return 0;
        }
+
+14. C Program to Compute Quotient and Remainder
+<br>
+
+      #include<stdio.h>
+      int main ()
+      {
+        int dividend, divisor, quotient, remainder;
+        printf("Enter the dividend and divisor:");
+        scanf("%d %d", &dividend, &divisor);
+        quotient=dividend/divisor;
+        remainder=dividend%divisor;
+        printf("%d %d", quotient, remainder); 
+        return 0;
+      }
