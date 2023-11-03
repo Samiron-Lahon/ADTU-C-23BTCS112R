@@ -1,5 +1,5 @@
-# ProblemSolving-C
-Problem Solvinng Using C ( Module-1 )
+# ASSSIGNMENTS-C PROGRAMMING
+Problem Solvinng Using C
 
 1. C Program Basics to print "Welcoming Message"
 
