@@ -1,2 +1,0 @@
-#ASSIGNMENTS-C PROGRAMMING
-Problem Solving Using C
