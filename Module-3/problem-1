@@ -1,0 +1,30 @@
+/* C Program to Swap Two Numbers – with and without temporary 
+variables*/
+
+//with temporary variable
+#include<stdio.h>
+int main ()
+{
+    int num1, num2, tem;
+    printf("Enter two numbers :");
+    scanf("%d %d", &num1, &num2);
+    tem=num1;
+    num1=num2;
+    num2=tem;
+    printf("Value after swaping : num1= %d and num2= %d\n", num1, num2);
+    return 0;
+}
+
+//without temporary variable
+#include<stdio.h>
+int main ()
+{
+    int num1, num2;
+    printf("Enter two numbers :");
+    scanf("%d %d", &num1, &num2);
+    num1= num1+num2;
+    num2=num1-num2;
+    num1=num1-num2;
+    printf("Value after swaping: number1= %d and number2= %d", num1, num2);
+    return 0;
+}
