@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main ()
+{
+    int num, sum=0, i=0;
+    printf("Enter the number :");
+    scanf("%d", &num);
+    while(i<=num)
+    {
+        sum += i;
+        i++;
+    }
+    int square=sum*sum ;
+    printf("The square of the summation of %d numbers is : %d\n", num, square);
+    return 0;
+
+}
