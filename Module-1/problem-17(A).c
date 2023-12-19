@@ -1,3 +1,4 @@
+  /*with temporary variable*/
   #include<stdio.h>
   int main ()
   {
