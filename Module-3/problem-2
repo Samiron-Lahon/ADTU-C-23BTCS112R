@@ -1,0 +1,37 @@
+/*C program to calculate salary by getting input as Basic, DA, HRA, CCA, and 
+deduction such as IT, PT, PF*/
+
+#include<stdio.h>
+int main ()
+{
+    float basic, DA, HRA, CCA, IT, PT, PF, GS, NS;
+
+    printf("Enter the basic salary:");
+    scanf("%f", &basic);
+
+    printf("Enter the DA : \n");
+    scanf("%f", &DA);
+
+    printf("Enter the HRA : \n");
+    scanf("%f", &HRA);
+
+    printf("Enter the CCA :\n");
+    scanf("%f", &CCA);
+
+    printf("Enter the IT :\n");
+    scanf("%f", &IT);
+
+    printf("Enter the PT :\n");
+    scanf("%f", &PT);
+
+    printf("Enter the PF:\n");
+    scanf("%f", &PF);
+
+    GS = (DA + HRA + CCA);
+    NS = GS - (IT + PT + PF);
+
+    printf("The Gross Salary is : %f\n", GS);
+    printf("The Net Salary is : %f\n", NS);
+
+    return 0;
+}
