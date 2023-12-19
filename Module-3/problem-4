@@ -1,4 +1,4 @@
-/*Program to find the Fibonacci series*/
+/* Program to find the factorial of n numbers*/
 
 #include <stdio.h>
 
