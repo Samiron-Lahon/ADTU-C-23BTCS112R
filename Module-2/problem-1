@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main ()
+{
+    int i, n, total=0;
+    printf("Enter a number : %d\n", n);
+    scanf("%d", &n);
+    if (n<0)
+    { 
+        printf("Please enter a non-negative number. /n");
+    }
+    for (i=1; i<=n; i++)
+    {
+        total+=i;
+    }
+    printf("The summation of the %d numbers is: \n", total);
+    return 0;
+}
